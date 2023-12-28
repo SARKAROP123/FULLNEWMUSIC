@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DAXXTEAM/DAXXMUSIC",
+    "https://github.com/SARKAROP123/FULLNEWMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALLTYPECC")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HEROKUFREECC")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TG_NAME_STYLE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TKS_CHAT_GROUP_OP")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/8447f80bc5997dcc9763a.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
